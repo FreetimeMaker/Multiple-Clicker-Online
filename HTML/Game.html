@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/Game.css">
+    <link rel="icon" type="image/x-icon" href="Icons/favicon.ico">
+    <title>Play Cookie Clicker Online</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9BRQH66XG0"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+     gtag('config', 'G-9BRQH66XG0');
+    </script>
+</head>
+  <body>
+  <h1 id="Header"></h1>
+
+  <script src="src/script.js"></script>
+
+  <h1 id="score"></h1>
+  <button id="button"></button>
+
+  <style>
+    body { 
+      background-color: powderblue; 
+      font-size: 30px;
+      text-align: center;
+    }
+    #button {
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+      border-radius: 100px;
+      margin: 0 auto;
+      line-height: 200px;
+      user-select: none;
+      margin-top: 100px;
+    }
+    #score {
+      margin-top: 50px;
+      font-size: 60px;
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+  <div id="score">0</div>
+  <div id="button">Click to bake Cookies</div>
+  <script>
+    let counter = 0;
+    
+    document.getElementById('button').onclick = () => {
+      counter = counter + 1;
+      document.getElementById('score').innerText = counter;
+    };
+  </script>
+  </body>
+</html>
