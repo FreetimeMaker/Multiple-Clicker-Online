@@ -1,7 +1,9 @@
 const message = 'Play Cookie Clicker Online' // Try edit me
+const message1 = 'Upgrade your Cookie' // Try edit me
 
 // Update header text
 document.querySelector('#header').innerHTML = message
+document.querySelector('#header1').innerHTML = message1
 
 // script.js
 let score = 0;
