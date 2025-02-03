@@ -18,13 +18,14 @@ body {
 button  {
   width: 200px;
   height: 200px;
-  background-color: purple;
-  color: pink;
+  background-color: brown;
+  color: burlywood;
   border-radius: 100px;
   margin: 0 auto;
   line-height: 200px;
   user-select: none;
   margin-top: 100px;
+  pointer-events: auto;
 }
 
 button:hover {

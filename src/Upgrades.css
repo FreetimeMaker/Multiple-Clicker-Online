@@ -20,3 +20,16 @@ body {
   text-decoration-color: green;
   font-family: "Roboto", sans-serif;
 }
+
+button  {
+  width: 200px;
+  height: 200px;
+  background-color: burlywood;
+  color: brown;
+  border-radius: 100px;
+  margin: 0 auto;
+  line-height: 200px;
+  user-select: none;
+  margin-top: 100px;
+  pointer-events: auto;
+}
