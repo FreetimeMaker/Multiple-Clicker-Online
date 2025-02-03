@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/Game.css">
+    <link rel="stylesheet" href="src/All.Pages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../Icons/favicon.ico">
     <title>Play Cookie Clicker Online</title>
     <script src="src/script.js"></script> <!-- Include your JavaScript file here -->
@@ -21,7 +34,7 @@
     <h1 id="Header"></h1>
 
     <div id="game-container">
-      <h1>Clicker Game</h1>
+      <h1 class="Titel" id="Header">Clicker Game</h1>
       <button id="click-button">
         <img src="../Bilder/Cookie_Button.jpg">
       </button>
@@ -30,8 +43,15 @@
       <!-- Upgrades section -->
       <div id="upgrades">
         <h2>Upgrades</h2>
-        <button id="upgrade-button" data-cost="10">Upgrade (Cost: 10)</button>
+        <a href="HTML/Upgrades.html">
+          <button>
+            <img src="../Bilder/Upgrade_Button.jpg">
+          </button>
+        </a>
       </div>
     </div>
+    <footer>
+      &copy; 2025 Freetime Maker
+    </footer>
   </body>
 </html>
