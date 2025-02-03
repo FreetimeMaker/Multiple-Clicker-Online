@@ -30,3 +30,14 @@ button  {
 button:hover {
   background-color: #0056b3;
 }
+
+.Home {
+  text-align: center;
+  font-size: 1em;
+  color: brown;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: burlywood;
+  font-family: "Roboto", sans-serif;
+}
